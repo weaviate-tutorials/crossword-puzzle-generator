@@ -3,15 +3,9 @@
 This repository contains code that creates questions and answers for a topic
 that you supply. It uses the question-answer pairs to create a crossword puzzle.
 
-<<<<<<< HEAD
 You supply an initial prompt. The code searches a vectorized collection of
 Wikipedia data and generates a list of people and places that are associated
 with the topic. These are the puzzle answers.
-=======
-You supply an initial prompt. The code searches the Wikipedia data and generates
-a list of people and places that are associated with the topic. These are the
-puzzle answers.
->>>>>>> 5d8a10521ea6fdf042169705379b9dbe30df60f3
 
 Once it has the list of answers, the code searches the data again to create
 clues.
