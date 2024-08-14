@@ -1,7 +1,7 @@
 # Crossword Puzzle Generator
 
-This repository contains code that creates questions and answers and uses the
-question-answer pairs to create a crossword puzzle.
+This repository contains code that creates questions and answers for a topic
+that you supply. It uses the question-answer pairs to create a crossword puzzle.
 
 You supply an initial prompt. The code generates a list of possible crossword
 puzzle answers. It creates a clue for each answer, and then the code generates a
