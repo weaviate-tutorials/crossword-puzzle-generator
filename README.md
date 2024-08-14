@@ -3,9 +3,16 @@
 This repository contains code that creates questions and answers for a topic
 that you supply. It uses the question-answer pairs to create a crossword puzzle.
 
-You supply an initial prompt. The code generates a list of possible crossword
-puzzle answers. It creates a clue for each answer, and then the code generates a
-puzzle that uses as many of the answers as it can fit into a puzzle grid.
+You supply an initial prompt. The code searches the Wikipedia data and generates
+a list of people and places that are associated with the topic. These are the
+puzzle answers.
+
+Once it has the list of answers, the code searches the data again to create
+clues.
+
+Finally, the code passes the list of clues and answers to a puzzle generator.
+The puzzle generator creates a crossword puzzle that uses as many of the answers
+as it can fit into a puzzle grid.
 
 ## Get started
 
