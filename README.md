@@ -5,10 +5,10 @@ that you supply. It uses the question-answer pairs to create a crossword puzzle.
 
 You supply an initial prompt. The code searches a vectorized collection of
 Wikipedia data and generates a list of people and places that are associated
-with the topic. These are the puzzle answers.
+with the topic. The list is a list of potential puzzle answers.
 
-Once it has the list of answers, the code searches the data again to create
-clues.
+Once it has the list of answers, the code searches the Wikipedia collection
+again to create a clue for each answer.
 
 Finally, the code passes the list of clues and answers to a puzzle generator.
 The puzzle generator creates a crossword puzzle that uses as many of the answers
