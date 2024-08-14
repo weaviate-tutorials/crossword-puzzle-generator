@@ -27,8 +27,8 @@ Cohere.
 
 This is where the language is configured: `import_wiki_data("simple", num_rows, skip_rows)`.
 
-To import a different language, uncomment one of the other rows or edit the code
-for the language name.
+To import a different language, uncomment one of the other import rows or edit
+the code to add the language name.
 
 ### Generate a puzzle
 
